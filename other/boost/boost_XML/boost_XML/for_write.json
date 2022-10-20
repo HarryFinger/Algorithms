@@ -1,0 +1,22 @@
+{
+    "Graphics": {
+        "XML_Element": {
+            "X": "1",
+            "Y": "2",
+            "Z": "3",
+            "point_color": "Red_point"
+        },
+        "XML_Element": {
+            "X": "-12",
+            "Y": "0",
+            "Z": "-3",
+            "point_color": "Blue_point"
+        },
+        "XML_Element": {
+            "X": "155",
+            "Y": "12",
+            "Z": "90",
+            "point_color": "Green_point"
+        }
+    }
+}

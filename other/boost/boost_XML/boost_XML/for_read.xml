@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<localinfo>
+	<playerinfo>
+			<userinfo
+				nickname = "SuperMario"
+				pass = "Zhenya123"
+				isOnline = "1"
+			/>
+			<userinfo
+				nickname = "BigDaddy"
+				pass = "Vasia123"
+				isOnline = "1"
+			/>
+			<userinfo
+				nickname = "ForeverOffline"
+				pass = "DeadJon"
+				isOnline = "0"
+			/>
+	</playerinfo>
+</localinfo>
