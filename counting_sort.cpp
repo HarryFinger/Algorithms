@@ -8,11 +8,9 @@ int main()
     std::vector<int> counter(15);
     for (size_t i = 0; i < vec.size(); i++)
     {
-        //std::cout << vec[i] << " ";
         (counter[vec[i]])++;
     }
     vec.clear();
-    std::for_each(vec.begin(), vec.end(), [](const auto& a){std::cout << a<< " ";});
 
     for(size_t i = 0; i < counter.size(); ++i)
     {
