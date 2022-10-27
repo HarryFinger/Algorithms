@@ -1,20 +1,22 @@
 #include <iostream>
 #include <memory>
 
-/*	    0
+/*	  78625
       /   \
 	 /     \
-	0       0
+   78      625
    / \     / \
-  0	  0   0   0   
-     / \
-    0   0        */
+  7	  8   62  5
+         / \
+        6   2  
+                */
+
 void merge_sort(int* arr, int arr_size)
 {
 	//base case of recurtion
 	if (arr_size <= 1) return; 
 	int mid = arr_size / 2;
-
+	
 	int* left_arr = arr; 
 	int* right_arr = arr + mid;
 	int left_size = mid; 
@@ -45,10 +47,10 @@ void merge_sort(int* arr, int arr_size)
 		}
 	}
 
+	//copying possible tails
 	while (left_i < left_size)
 	{
 		buffer[buffer_i] = left_arr[left_i];
-
 		++left_i;
 		++buffer_i;
 	}
@@ -60,11 +62,11 @@ void merge_sort(int* arr, int arr_size)
 		++buffer_i;
 	}
 
+	//coping buffer into target array
 	for (size_t i = 0; i < arr_size; i++)
 	{
 		arr[i] = buffer[i];
 	}
-
 }
 
 
