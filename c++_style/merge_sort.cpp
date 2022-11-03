@@ -26,7 +26,7 @@ void merge_sort(int* arr, int arr_size)
 	merge_sort(left_arr, left_size);
 	merge_sort(right_arr, right_size);
 
-	//merge two arrays into singe
+	//merge two already sorted parts of array
 	auto buffer = std::make_unique<int[]>(arr_size);
 	int left_i = 0;
 	int right_i = 0;
