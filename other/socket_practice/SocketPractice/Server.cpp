@@ -1,6 +1,7 @@
 #include <iostream>
 #include <SFML/Network.hpp>
 #include <Windows.h>
+#include <iostream>
 
 int main()
 {
@@ -27,5 +28,4 @@ int main()
 	char arr[100] = "HELLO MAN!!!";
 
 	client.send(arr, 13);
-	system("pause");
 }
