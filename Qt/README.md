@@ -1,1 +1,1 @@
-Need to download Qt framework
+for appropriate work needs to download Qt framework
