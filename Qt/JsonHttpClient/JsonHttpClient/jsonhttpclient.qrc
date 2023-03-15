@@ -1,0 +1,4 @@
+<RCC>
+    <qresource prefix="JsonHttpClient">
+    </qresource>
+</RCC>
